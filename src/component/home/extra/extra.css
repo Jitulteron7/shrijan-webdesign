@@ -1,0 +1,78 @@
+.extra{
+    height: 1200px;
+    width: 100%;
+}
+.card-image img {
+    height: 300px !important;
+}
+.card{
+    padding:20px;
+    width: 45ch;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    transition: transform 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+    margin: 0 auto !important;
+}
+.card:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+  }
+  
+.card-content{
+    padding: 0 !important;
+    padding-top: 10px !important;
+}
+.exheader{
+    font-weight: 700;
+    font-size: 3.5rem !important;
+}
+.extra .col{
+    margin-top: 30px;
+}
+@media screen and (max-width:1000px){
+    .card{
+        padding-top: 0px;
+        width: 300px !important;
+    }
+    .extra{
+        height: 1600px !important;
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px){
+    .card{
+        padding-top: 0px;
+        width: 300px !important;
+    }
+    .extra{
+        height: 1300px !important;
+        width: 100%;
+    }
+    .extra .col{
+        margin-top: 20px;
+    }
+    .card-image img {
+        height: 200px !important;
+    }
+}
+@media screen and (max-width:600px){
+    .card{
+        padding-top: 0px;
+        width: 300px !important;
+    }
+    .extra{
+        height: 2000px !important;
+        width: 100%;
+    }
+    .extra .col{
+        margin-top: 20px;
+    }
+    .card-image img {
+        height: 200px !important;
+    }
+}

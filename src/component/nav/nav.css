@@ -1,0 +1,41 @@
+nav{
+    /* background-color: transparent !important; */
+    background-color: #fff ;
+    transition: background-color .6s;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: fixed;
+    top: 0;
+    z-index: 110;
+    height: 80px !important;
+}
+.navbar a {
+    color: #000 ;
+}
+.navbar ul {
+    position: relative;
+    top: 10px;
+}
+.brand-logo{
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    position: relative;
+    top: 10px;
+}
+
+.brand-img{
+    position: relative;
+    top: -19px;
+    width: 110px;   
+}
+@media screen and (max-width:700px){
+    .brand-logo{
+        display: none !important;
+    }
+    .brand-img{
+        position: absolute !important;
+        right: -30px !important;
+        width: 110px;   
+    }
+        
+}

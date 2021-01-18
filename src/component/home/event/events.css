@@ -1,0 +1,132 @@
+.background{
+    background-image: url("../../img/event.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+    position: relative;
+    height: 1200px;
+    background-size: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgb(0 0 0 / 40%) !important;
+}
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    color: #fff !important;
+} 
+.titlehead{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    color: #fff !important;
+}
+
+center button {
+    margin-top: 20px;
+}
+.events .card{
+    position: relative;
+    z-index: 2;
+   margin: 0 auto !important;
+    width: 90% !important;
+    border-radius: 10px;  
+    transition: transform .2s ease-in ;
+    padding: 10px;
+}
+.events .col{
+    padding: 10px !important;   
+}
+.modal{
+    width: 500px;
+}
+.contentbox{
+    display: none;
+}
+.iconbox{
+    display: block;
+}
+.boxhead{
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%;
+    color:#fff ;
+    text-align: center;
+    background-color: #000;
+}
+/* responsive 1 */
+@media screen and (max-width:700px){
+    
+    .events .card{
+        position: relative;
+        z-index: 2;
+        padding: 6px;
+        padding-top: 0px;
+        width: 300px !important;
+        border-radius: 10px;  
+    
+    }
+    .background{
+        background-image: url("../../img/event.jpg");
+        height: 2000px !important;
+        background-size: 100% 1000px;
+    }
+    .titlehead{
+        margin-top: 5px;
+        font-size: 2.5rem;
+    }
+    .title{
+        margin-top: 0px;
+        font-size: 1.7rem;
+
+    }
+    .overlay{
+        width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background: rgb(0 0 0 / 30%) !important;
+    }
+    .modal{
+        width: 300px;
+    }
+}
+/* responsive 2 */
+@media screen and (max-width:1000px){
+    .background{
+        background-image: url("../../img/event.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+         background-attachment: fixed;
+        position: relative;
+        height: 1600px;
+        
+        background-size: 100% 1000px;
+    }       
+    .boxhead{
+        font-size: 1.6rem;
+    }
+}
+/* responsive 3 */
+@media screen and (max-width:600px) {
+    .background{
+        height: 2300px !important;
+        background-size: 100% 1500px;
+    }
+    
+}
